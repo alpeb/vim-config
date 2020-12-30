@@ -1,0 +1,18 @@
+[submodule ".vim/pack/mine/opt/killersheep"]
+	path = .vim/pack/mine/opt/killersheep
+	url = git@github.com:vim/killersheep.git
+[submodule ".vim/bundle/vim-github-colorscheme"]
+	path = .vim/bundle/vim-github-colorscheme
+	url = git@github.com:endel/vim-github-colorscheme.git
+[submodule ".vim/pack/tpope/start/vim-fugitive"]
+	path = .vim/pack/tpope/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule ".vim/pack/plugins/start/vim-go"]
+	path = .vim/pack/plugins/start/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule ".vim/bundle/tabman"]
+	path = .vim/bundle/tabman
+	url = git@github.com:kien/tabman.vim.git
+[submodule ".vim/pack/airblade/start/vim-gitgutter"]
+	path = .vim/pack/airblade/start/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
