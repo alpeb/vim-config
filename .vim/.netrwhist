@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/alpeb/src/configs-private/common/home/user/.vim/bundle'
+let g:netrw_dirhist_9='/home/alpeb/tmp'
+let g:netrw_dirhist_8='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/test/integration/opaqueports/testdata'
+let g:netrw_dirhist_7='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/test/integration/opaqueports'
+let g:netrw_dirhist_6='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/controller/api/destination'
+let g:netrw_dirhist_5='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/controller/api'
+let g:netrw_dirhist_4='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/controller'
+let g:netrw_dirhist_3='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/controller/script'
+let g:netrw_dirhist_2='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/controller/script/destination-client'
+let g:netrw_dirhist_1='/home/alpeb/src/pr/opaque-hint-annotations/linkerd2/controller/script'
