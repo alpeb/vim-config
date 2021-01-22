@@ -11,6 +11,13 @@ filetype plugin indent on
 " Needed for the github colorscheme to work under tmux
 "set t_Co=256
 "jhi Normal ctermbg=256
+"
+
+"taken from colorscheme photon
+hi DiffAdd ctermbg=darkgray ctermfg=darkgreen cterm=NONE
+hi DiffChange ctermbg=darkgray ctermfg=NONE cterm=NONE
+hi DiffDelete ctermbg=darkgray ctermfg=darkred cterm=NONE
+hi DiffText ctermbg=darkgray ctermfg=darkyellow cterm=NONE
 
 set fileformats=unix,dos,mac
 
@@ -128,7 +135,7 @@ cabbrev help vert help
 "  vimdiff
 "  ------------
 "  https://stackoverflow.com/questions/16840433/forcing-vimdiff-to-wrap-lines
-au VimEnter * if &diff | execute 'windo set wrap' | endif
+au VimEnter * if &diff | execute 'tabdo windo set wrap' | endif
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
