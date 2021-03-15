@@ -72,6 +72,7 @@ let g:go_doc_popup_window = 1
 
 "set nu
 hi LineNr ctermbg=248
+set number
 
 let mapleader=" "
 
@@ -82,7 +83,6 @@ map <C-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 " map W gvq
 "
 "
-set number
 
 au BufRead,BufNewFile *.md setlocal textwidth=80
 
